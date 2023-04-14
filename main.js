@@ -5,7 +5,9 @@ const app = Vue.createApp({
             description: 'A suitable product for the rainy season and beyond',
             image: './assets/images/socks_blue.jpg',
             url: 'https://google.com',
-            inStock: false
+            inStock: true, 
+            inventory: 10,
+            onSale: true
         }
     }
 })
